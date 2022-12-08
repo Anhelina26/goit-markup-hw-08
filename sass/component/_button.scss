@@ -2,8 +2,8 @@
 .button {
     display: block;
     margin:auto;
-    padding: 10px 32px;
-    min-width: 152px ;
+    padding: 10px 24px;
+    min-width: 200px;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
@@ -20,6 +20,12 @@
     transition-property: outline, backround-color;
     transition-duration:250ms;
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width:1200px) {
+        min-width:152px;
+        padding: 10px 32px;
+
+    }
 
 &:hover,
 &:focus{
