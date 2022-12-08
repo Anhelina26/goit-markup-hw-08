@@ -1,0 +1,27 @@
+//socials
+.socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.socials__links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--socials-svg-color);
+  background-color: #fff;
+  transition-property: backround-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+&:focus,
+&:hover
+{
+    background-color: var(--primary-accent-color);
+    fill: var(--white-color);
+}
+}
