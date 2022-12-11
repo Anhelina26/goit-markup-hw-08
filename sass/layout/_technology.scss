@@ -1,9 +1,13 @@
 //technology
 .technology{
-    display: none;
-    position: relative;
+   position: relative;
+    
+ @media screen and (max-width: 1199px) {
+                display: none;
+     }
 }
-.technology__overlay{
+
+ .technology__overlay{
     position: absolute;
     bottom:0;
     padding-top: 20px;

@@ -88,6 +88,16 @@
     text-decoration: none;
 }
 
+.menu-icon-close{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.menu-icon-close:hover,
+.menu-icon-close:focus{
+    fill: var(--primary-accent-color);
+}
+
 .mobile-socials{
     display:flex;
     gap:20px;
