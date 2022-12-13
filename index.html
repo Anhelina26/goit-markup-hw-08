@@ -56,10 +56,12 @@
  <main>
 <!---------- hero------------->
 
- <section class="hero section ">
+ <section class="hero section">
     <div class="container">
+    <div class="hero-container">
     <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
     <button type="button" class="button" data-modal-open>Замовити послугу</button>
+    </div>
     </div>
  </section>
  
@@ -119,27 +121,36 @@
   <ul class="technology__style">
   <li class="technology">
     <img srcset="
-            images\technology\img_large-1@1x.jpg 
-            images\technology\img_large-1@2x.jpg" 
-            width="370" height="294"
-      src="./images/technology/img_large-1@1x.jpg" alt="Ігор Дем'яненко" loading="lazy" />
+        ./images/technology/img_large-1@1x.jpg 1x,
+        ./images/technology/img_large-1@2x.jpg 2x"
+         src="./images/technology/img_large-1@1x.jpg"
+         alt="зображення комп'ютера та робочого столу"
+         width="370"
+         height="294"
+        loading="lazy" />
   <div class="technology__overlay">
     <p class="tech-overlay-text">Десктопні додатки</p></div>
   </li>
   <li class="technology"> 
     <img srcset="
-                images\technology\img_large-2@1x.jpg
-                images\technology\img_large-2@2x.jpg"
-          width="370" height="294"
-      src="./images/technology/img_large-2@1x.jpg" alt="Ігор Дем'яненко" loading="lazy" />
+        ./images/technology/img_large-2@1x.jpg 1x,
+        ./images/technology/img_large-2@2x.jpg 2x"
+         src="./images/technology/img_large-2@1x.jpg"
+        alt="зображення комп'ютера та робочого столу"
+        width="370"
+        height="294"
+        loading="lazy" />
   <div class="technology__overlay"><p class="tech-overlay-text">Мобільні додатки</p></div>
   </li>
   <li class="technology"> 
-  <img srcset="
-              images\technology\img_large-3@1x.jpg 
-              images\technology\img_large-3@2x.jpg"
-    width="370" height="294"
-    src="./images/technology/img_large-3@1x.jpg" alt="Ігор Дем'яненко" loading="lazy" />
+    <img srcset="
+        ./images/technology/img_large-3@1x.jpg 1x,
+        ./images/technology/img_large-3@2x.jpg 2x" 
+        src="./images/technology/img_large-3@1x.jpg"
+        alt="зображення комп'ютера та робочого столу" 
+        width="370" 
+        height="294" 
+        loading="lazy" />
     <div class="technology__overlay"><p class="tech-overlay-text">Дизайнерські рішення</p></div>
   </li>
   </ul>
@@ -641,10 +652,9 @@
       <use href="./images/icons.svg.svg#icon-close-molile-menu"></use>
     </svg>
   </button>
-
 <ul class="mobile-menu">
   <li class="mobile-menu-item">
-    <a class="mobile-menu-link current current-nav link" href="./index.html">Студія</a>
+    <a class="mobile-menu-link mobile-current link" href="./index.html">Студія</a>
   </li>
   <li class="mobile-menu-item">
     <a class="mobile-menu-link link" href="./portfolio.html">Портфоліо</a>

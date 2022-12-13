@@ -86,7 +86,11 @@
     color: var(--paragraf-color);
 
     @media screen and (min-width:1200px){
-        line-height:calc(24/14);
+    font-weight: 400;
+        font-size: 14px;
+        line-height: calc(24/14);
+        letter-spacing: 0.03em;
+         color: #757575;
     }
 }
 .modal__form-agreement-link{
