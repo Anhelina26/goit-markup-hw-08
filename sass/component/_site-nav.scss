@@ -60,6 +60,7 @@
 }
 
 .auth-nav__mail {
+    font-size: 12px;
     display:block;
     color: var(--paragraf-color);
     font-weight: 500;
@@ -76,13 +77,17 @@
     &:focus {
         color: #2196F3;
     }
+
+    @media screen and (min-width:1200px) {
+        font-size: 14px;
+    }
 }
 
 .auth-nav__tel {
     color: var(--paragraf-color);
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 14/12;
     letter-spacing: 0.02em;
     display: flex;
@@ -93,6 +98,10 @@
     &:focus {
         color: #2196F3;
     }
+
+          @media screen and (min-width:1200px) {
+              font-size: 14px;
+          }
 }
 
 .auth-nav__icon {
