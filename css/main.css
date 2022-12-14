@@ -197,6 +197,7 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .auth-nav__mail {
+    margin-bottom: 0;
     font-size: 14px;
   }
 }
@@ -223,6 +224,7 @@ a {
 @media screen and (min-width: 1200px) {
   .auth-nav__tel {
     font-size: 14px;
+    margin-bottom: 0;
   }
 }
 
@@ -683,8 +685,8 @@ a {
           flex-direction: column;
   z-index: 999;
   background-color: white;
-  -webkit-transform: translateX(1100%);
-          transform: translateX(1100%);
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
   -webkit-transition: -webkit-transform 250ms ease-in-out;
   transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
@@ -797,7 +799,12 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 20px;
+  gap: 10px;
+}
+@media screen and (min-width: 480px) {
+  .mobile-socials {
+    gap: 20px;
+  }
 }
 
 .mobile-menu-link {
@@ -857,12 +864,12 @@ a {
 }
 
 .mobile-socials-item:not(:last-child) {
-  padding-right: 8px;
+  padding-right: 5px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 @media screen and (min-width: 480px) {
   .mobile-socials-item:not(:last-child) {
-    padding-right: 10px;
+    padding-right: 15px;
   }
 }
 
@@ -973,13 +980,21 @@ a {
       -ms-flex-align: center;
           align-items: center;
   font-weight: 900;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.6153846154;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
   margin-bottom: 30px;
+}
+@media screen and (min-width: 480px) {
+  .hero__title {
+    width: 360px;
+    font-size: 26px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 @media screen and (min-width: 768px) {
   .hero__title {
@@ -1050,8 +1065,13 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--paragraf-color);
-  width: 400px;
+  width: 300px;
   margin-bottom: 30px;
+}
+@media screen and (min-width: 480px) {
+  .features__paragraf {
+    width: 400px;
+  }
 }
 @media screen and (min-width: 768px) {
   .features__paragraf {
