@@ -1,23 +1,22 @@
 :root {
-    /******Text-color*********/
---title-text-color: #212121;
---white-color: #FFFFFF;
---paragraf-color: #757575;
---primary-accent-color:#2196F3;
---second-background-color: #2F303A;
---other-backround-color:#F5F4FA;
---primary-background-color: #F5F5F5;
---text-color: #000000;
---overlov-bg-color: rgba(33, 150, 243, 0.9);
---overlov-tech-bg-color:rgba(47, 48, 58, 0.8);
+  /******Text-color*********/
+  --title-text-color: #212121;
+  --white-color: #ffffff;
+  --paragraf-color: #757575;
+  --primary-accent-color: #2196f3;
+  --second-background-color: #2f303a;
+  --other-backround-color: #f5f4fa;
+  --primary-background-color: #f5f5f5;
+  --text-color: #000000;
+  --overlov-bg-color: rgba(33, 150, 243, 0.9);
+  --overlov-tech-bg-color: rgba(47, 48, 58, 0.8);
 
-
-/**********Others**********/
---indent:30px;
---items:4;
---socials-svg-color:#AFB1B8;
---socials-svg-bg-color: rgba(255, 255, 255, 0.1);
---modal-idx:100;
---anim-fast: 500ms ease;
---card-set-item: calc((100%-var(--indent)*(var(items)-1))/var(--items));
-} 
+  /**********Others**********/
+  --indent: 30px;
+  --items: 4;
+  --socials-svg-color: #afb1b8;
+  --socials-svg-bg-color: rgba(255, 255, 255, 0.1);
+  --modal-idx: 100;
+  --anim-fast: 500ms ease;
+  --card-set-item: calc((100%-var(--indent) * (var(items)-1)) / var(--items));
+}

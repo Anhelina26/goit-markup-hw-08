@@ -1,14 +1,13 @@
 //header
-.header{
-    border-bottom: 1px solid #ECECEC;
+.header {
+  border-bottom: 1px solid #ececec;
 
-&__container{
+  &__container {
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-&__logo {
+  }
+  &__logo {
     padding: 16px 15px;
     margin-right: auto;
     font-family: Raleway;
@@ -18,17 +17,17 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
 
-    @media screen and (min-width:768px) {
-        padding: 26px 15px;
+    @media screen and (min-width: 768px) {
+      padding: 26px 15px;
     }
 
-    @media screen and (min-width:1200px) {
-        padding-top: 24px;
-        padding-bottom: 25px;
+    @media screen and (min-width: 1200px) {
+      padding-top: 24px;
+      padding-bottom: 25px;
     }
-}
+  }
 
-&__logo--darkcolor {
+  &__logo--darkcolor {
     color: var(--text-color);
-}
+  }
 }

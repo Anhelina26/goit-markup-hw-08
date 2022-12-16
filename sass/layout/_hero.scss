@@ -1,99 +1,106 @@
 //hero
 .hero {
-    background-color: var(--second-background-color);
-    max-width: 480px;
-    height: 400px;
-    margin-left: auto;
-    margin-right:auto;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 118px;
-    padding-bottom: 118px;
+  background-color: var(--second-background-color);
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 118px;
+  padding-bottom: 118px;
 
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../images/bg-photo/Шапка_small@1x.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/bg-photo/Шапка_small@1x.jpg);
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/bg-photo/Шапка_small@2x.jpg");
+  }
+
+  // tablet screen
+  @media screen and (min-width: 481px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/bg-photo/img_midium@1x.jpg");
 
     @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx){
-            background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                    url('../images/bg-photo/Шапка_small@2x.jpg');
-        }
- 
-                // tablet screen
-                @media screen and (min-width: 481px) {
-                    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                     url('../images/bg-photo/img_midium@1x.jpg');
-        
-                    @media (min-device-pixel-ratio: 2),
-                    (min-resolution: 192dpi),
-                    (min-resolution: 2dppx) {
-                        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                         url('../images/bg-photo/img_midium@2x.jpg');
-                    }
-                }
-        
-                // desktop screen
-                @media screen and (min-width: 769px) {
-                    background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                     url('../images/bg-photo/Img_large@1x.jpg');
-        
-                    @media (min-device-pixel-ratio: 2),
-                    (min-resolution: 192dpi),
-                    (min-resolution: 2dppx) {
-                        background-image:linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-                        url('../images/bg-photo/Img_large@2x.jpg');
-                    }
-                }
-
-    @media screen and (min-width:768px) {
-            height: 400px;
-            max-width: 768px;
-            padding-top:118px;
-        }
-
-    @media screen and (min-width:1200px) {
-     height:600px;
-     max-width: 1600px;
-     padding: 200px 0;
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/bg-photo/img_midium@2x.jpg");
     }
+  }
+
+  // desktop screen
+  @media screen and (min-width: 769px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/bg-photo/Img_large@1x.jpg");
+
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/bg-photo/Img_large@2x.jpg");
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 400px;
+    max-width: 768px;
+    padding-top: 118px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    height: 600px;
+    max-width: 1600px;
+    padding: 200px 0;
+  }
 }
 
-.hero__title{
-    align-items: center;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: calc(42/26);
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--white-color);
-    margin-bottom: 30px;
+.hero__title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: calc(42 / 26);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width:360px;
 
-@media screen and (min-width:480px) {
-        width: 360px;
-        font-size: 26px;
-        margin-right: auto;
-        margin-left: auto;
-    }
+  @media screen and (min-width: 480px) {
+    font-size: 26px;
+  }
 
-@media screen and (min-width:768px) {
-        width: 360px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    
-@media screen and (min-width:1200px) {
-                    font-weight: 700;
-                    font-size: 44px;
-                    line-height: 1.36;
-                    width:696px;
-                    margin-right: auto;
-                    margin-left: auto;
- }
+  @media screen and (min-width: 1200px) {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 696px;
+  }
 }
-
-
-
- 

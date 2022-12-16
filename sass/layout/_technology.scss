@@ -1,40 +1,40 @@
 //technology
-.technology{
-   position: relative;
-    
- @media screen and (max-width: 1199px) {
-                display: none;
-     }
+.technology {
+  position: relative;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 
- .technology__overlay{
-    position: absolute;
-    bottom:0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: var(--overlov-tech-bg-color);
-    width:100%;
-    text-transform: uppercase;
+.technology__overlay {
+  position: absolute;
+  bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--overlov-tech-bg-color);
+  width: 100%;
+  text-transform: uppercase;
 }
-.tech-overlay-text{
-    font-weight: 700;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    color: var(--white-color);
-    text-align: center;
+.tech-overlay-text {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  text-align: center;
 }
 
 .technology__title {
-    margin-bottom: 50px;
-   font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 
 .technology__style {
-    display: flex;
-    align-items: center;
-    gap: var(--indent);
+  display: flex;
+  align-items: center;
+  gap: var(--indent);
 }
