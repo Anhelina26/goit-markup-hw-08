@@ -1654,6 +1654,11 @@ a {
 @media screen and (max-width: 1199px) {
   .footer-text-label {
     margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 @media screen and (min-width: 1200px) {

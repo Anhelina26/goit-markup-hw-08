@@ -202,7 +202,8 @@
 }
 
 .footer-form__text {
-  @media screen and (min-width: 1200px) {
+  
+@media screen and (min-width: 1200px) {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -233,7 +234,7 @@
 
   @media screen and (max-width: 468px) {
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     width: 100%;
   }
 
@@ -307,8 +308,11 @@
 }
 
 .footer-text-label {
-   @media screen and (max-width: 1199px) {
+  
+ @media screen and (max-width: 1199px) {
    margin-bottom: 20px;
+   display: flex;
+   justify-content: space-around;
  }
 
   @media screen and (min-width: 1200px) {
@@ -317,6 +321,7 @@
     margin-right: 12px;
  }
 }
+
 .footer-social {
   @media screen and (min-width: 768px) {
     margin-bottom: 0;
