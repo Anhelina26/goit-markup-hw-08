@@ -39,6 +39,7 @@
 
   @media screen and (min-width: 1200px) {
     gap: 70px;
+    margin-bottom: 0;
   }
 }
 
@@ -235,7 +236,7 @@
   @media screen and (max-width: 468px) {
     display: flex;
     justify-content:space-around;
-    width: 100%;
+    width: 300px;
   }
 
   @media screen and (min-width: 480px) {
@@ -343,11 +344,7 @@
   margin-bottom: 60px;
   min-width: 231px;
 
-  @media screen and (min-width: 768px) {
-    margin-bottom: 60px;
-  }
-
-  @media screen and (min-width: 1200px) {
+   @media screen and (min-width: 768px) {
     margin-bottom: 0px;
   }
 }
